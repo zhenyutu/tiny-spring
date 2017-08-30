@@ -1,6 +1,6 @@
 package cn.tzy.tinySpring.ioc.factory;
 
-import cn.tzy.tinySpring.BeanDefinition;
+import cn.tzy.tinySpring.ioc.BeanDefinition;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -10,10 +10,18 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author tuzhenyu
  */
 public abstract class AbstractBeanFactory implements BeanFactory{
-    private Map<String,BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
+    public Map<String,BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
 
-    public Object getBean(String beanName){
-        return beanDefinitionMap.get(beanName).getBean();
+    public Object getBean(String name) {
+        BeanDefinition beanDefinition = beanDefinitionMap.get(name);
+        if (beanDefinition == null) {
+            throw new IllegalArgumentException("No bean named " + name + " is defined");
+        }
+        Object bean = beanDefinition.getBean();
+        if (bean == null) {
+            bean = doCreate(beanDefinition);
+        }
+        return bean;
     }
 
     public void registerBeanDefinition(String beanName,BeanDefinition beanDefinition){

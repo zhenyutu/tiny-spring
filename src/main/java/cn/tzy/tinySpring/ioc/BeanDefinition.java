@@ -1,4 +1,4 @@
-package cn.tzy.tinySpring;
+package cn.tzy.tinySpring.ioc;
 
 import cn.tzy.tinySpring.ioc.PropertyValue;
 import cn.tzy.tinySpring.ioc.PropertyValues;
@@ -11,7 +11,7 @@ public class BeanDefinition {
     private Object bean;
     private String beanClassName;
     private Class beanClass;
-    private PropertyValues propertyValues;
+    private PropertyValues propertyValues = new PropertyValues();
 
 
     public Object getBean(){

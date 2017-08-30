@@ -1,11 +1,12 @@
 package cn.tzy.tinySpring.ioc.factory;
 
-import cn.tzy.tinySpring.BeanDefinition;
+import cn.tzy.tinySpring.ioc.BeanDefinition;
 import cn.tzy.tinySpring.ioc.PropertyValue;
 import cn.tzy.tinySpring.ioc.PropertyValues;
+import cn.tzy.tinySpring.ioc.io.Resource;
+import cn.tzy.tinySpring.ioc.io.ResourceLoader;
+import cn.tzy.tinySpring.ioc.xml.XmlBeanDefinitionReader;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by tuzhenyu on 17-8-30.
@@ -31,5 +32,25 @@ public class BeanFactoryTest {
     }
 
 
+    @Test
+    public void test2()throws Exception{
+        Resource resource = new ResourceLoader().getResource("tinyioc.xml");
+        AutowireCapableBeanFactory factory = new AutowireCapableBeanFactory();
+        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+        reader.loadBeanDefinitions(resource);
+        System.out.println(factory.beanDefinitionMap.size());
+    }
+
+    @Test
+    public void test3()throws Exception{
+        Resource resource = new ResourceLoader().getResource("tinyioc.xml");
+        AutowireCapableBeanFactory factory = new AutowireCapableBeanFactory();
+        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+        reader.loadBeanDefinitions(resource);
+        System.out.println(factory.beanDefinitionMap.size());
+
+        OutputService outputService = (OutputService) factory.getBean("outputService");
+        outputService.output();
+    }
 
 }

@@ -1,28 +1,38 @@
 package cn.tzy.tinySpring;
 
+import cn.tzy.tinySpring.ioc.PropertyValue;
+import cn.tzy.tinySpring.ioc.PropertyValues;
+
 /**
  * Created by tuzhenyu on 17-8-30.
  * @author tuzhenyu
  */
 public class BeanDefinition {
     private Object bean;
-    private String beanName;
+    private String beanClassName;
     private Class beanClass;
+    private PropertyValues propertyValues;
 
-    public BeanDefinition(Object bean){
-        this.bean = bean;
-    }
 
     public Object getBean(){
         return this.bean;
     }
 
-    public String getBeanName() {
-        return beanName;
+    public void setBean(Object bean) {
+        this.bean = bean;
     }
 
-    public void setBeanName(String beanName) {
-        this.beanName = beanName;
+    public String getBeanClassName() {
+        return beanClassName;
+    }
+
+    public void setBeanClassName(String beanName) {
+        this.beanClassName = beanName;
+        try {
+            this.beanClass = Class.forName(beanClassName);
+        }catch (ClassNotFoundException e){
+            e.printStackTrace();
+        }
     }
 
     public Class getBeanClass() {
@@ -31,5 +41,13 @@ public class BeanDefinition {
 
     public void setBeanClass(Class beanClass) {
         this.beanClass = beanClass;
+    }
+
+    public PropertyValues getPropertyValues() {
+        return propertyValues;
+    }
+
+    public void setPropertyValues(PropertyValues propertyValues) {
+        this.propertyValues = propertyValues;
     }
 }

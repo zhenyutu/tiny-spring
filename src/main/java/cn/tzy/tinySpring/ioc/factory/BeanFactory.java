@@ -1,4 +1,4 @@
-package cn.tzy.tinySpring.ioc;
+package cn.tzy.tinySpring.ioc.factory;
 
 import cn.tzy.tinySpring.BeanDefinition;
 

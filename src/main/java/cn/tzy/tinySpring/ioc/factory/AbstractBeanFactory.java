@@ -1,4 +1,4 @@
-package cn.tzy.tinySpring.ioc;
+package cn.tzy.tinySpring.ioc.factory;
 
 import cn.tzy.tinySpring.BeanDefinition;
 
@@ -17,6 +17,8 @@ public abstract class AbstractBeanFactory implements BeanFactory{
     }
 
     public void registerBeanDefinition(String beanName,BeanDefinition beanDefinition){
+        Object bean = doCreate(beanDefinition);
+        beanDefinition.setBean(bean);
         beanDefinitionMap.put(beanName,beanDefinition);
     }
 

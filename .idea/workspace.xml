@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab83b9b-598a-4a12-897a-5ad7ef55fb71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanDefinition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AutowireCapableBeanFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/BeanFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanFactory.java" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AbstractBeanFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanDefinition.java" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanDefinition.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,17 +26,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BeanFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanFactory.java">
+      <file leaf-file-name="AutowireCapableBeanFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AutowireCapableBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#268#292#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,8 +62,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/AbstractBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/BeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AbstractBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AutowireCapableBeanFactory.java" />
       </list>
     </option>
   </component>
@@ -167,6 +169,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tiny-spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tiny-spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinySpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ioc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -183,6 +215,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.9.2/bin/node" />
     <property name="last_opened_file_path" value="$USER_HOME$/book/java/tiny-spring/tiny-spring-step-1-container-register-and-get/pom.xml" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -646,12 +679,12 @@
       <option name="presentableId" value="Default" />
       <updated>1504089617481</updated>
       <workItem from="1504089621185" duration="195000" />
-      <workItem from="1504089855148" duration="586000" />
+      <workItem from="1504089855148" duration="1777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="781000" />
+    <option name="totallyTimeSpent" value="1972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="18" width="1366" height="750" extended-state="6" />
@@ -718,30 +751,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanDefinition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/BeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <marker date="1504090442565" expanded="true" signature="28:90" ph="/**...*/" />
-            <marker date="1504090442565" expanded="true" signature="184:194" ph=" { " />
-            <marker date="1504090442565" expanded="true" signature="211:217" ph=" }" />
-            <marker date="1504090442565" expanded="true" signature="246:256" ph=" { " />
-            <marker date="1504090442565" expanded="true" signature="273:279" ph=" }" />
+            <marker date="1504091249309" expanded="true" signature="74:136" ph="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="253">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#292#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
+            <marker date="1504091413065" expanded="true" signature="39:142" ph="..." />
+            <marker date="1504091413065" expanded="true" signature="144:206" ph="/**...*/" />
+            <marker date="1504091413065" expanded="true" signature="353:377" ph="&lt;~&gt;" />
+            <marker date="1504091413065" expanded="false" signature="424:434" ph=" { " />
+            <marker date="1504091413065" expanded="false" signature="483:489" ph=" }" />
+            <marker date="1504091413065" expanded="true" signature="576:639" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1504091623773" expanded="true" signature="28:90" ph="/**...*/" />
+            <marker date="1504091623773" expanded="false" signature="243:253" ph=" { " />
+            <marker date="1504091623773" expanded="false" signature="270:276" ph=" }" />
+            <marker date="1504091623773" expanded="false" signature="305:315" ph=" { " />
+            <marker date="1504091623773" expanded="false" signature="332:338" ph=" }" />
+            <marker date="1504091623773" expanded="true" signature="371:382" ph=" { " />
+            <marker date="1504091623773" expanded="true" signature="398:404" ph=" }" />
+            <marker date="1504091623773" expanded="true" signature="450:461" ph=" { " />
+            <marker date="1504091623773" expanded="true" signature="486:492" ph=" }" />
+            <marker date="1504091623773" expanded="true" signature="525:536" ph=" { " />
+            <marker date="1504091623773" expanded="true" signature="553:559" ph=" }" />
+            <marker date="1504091623773" expanded="true" signature="606:617" ph=" { " />
+            <marker date="1504091623773" expanded="true" signature="644:650" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

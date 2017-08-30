@@ -1,4 +1,6 @@
-package cn.tzy.tinySpring;
+package cn.tzy.tinySpring.ioc;
+
+import cn.tzy.tinySpring.BeanDefinition;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -7,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Created by tuzhenyu on 17-8-30.
  * @author tuzhenyu
  */
-public class BeanFactory {
+public abstract class AbstractBeanFactory implements BeanFactory{
     private Map<String,BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
 
     public Object getBean(String beanName){
@@ -17,4 +19,6 @@ public class BeanFactory {
     public void registerBeanDefinition(String beanName,BeanDefinition beanDefinition){
         beanDefinitionMap.put(beanName,beanDefinition);
     }
+
+    protected abstract Object doCreate(BeanDefinition beanDefinition);
 }

@@ -12,7 +12,7 @@ import java.lang.reflect.Field;
  */
 public class AutowireCapableBeanFactory extends AbstractBeanFactory{
     @Override
-    protected Object doCreate(BeanDefinition beanDefinition){
+    public Object doCreate(BeanDefinition beanDefinition){
         Object bean = null;
         try{
             bean = createBeanInstance(beanDefinition);

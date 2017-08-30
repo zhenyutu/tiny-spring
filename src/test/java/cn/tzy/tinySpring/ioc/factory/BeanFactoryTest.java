@@ -3,6 +3,8 @@ package cn.tzy.tinySpring.ioc.factory;
 import cn.tzy.tinySpring.ioc.BeanDefinition;
 import cn.tzy.tinySpring.ioc.PropertyValue;
 import cn.tzy.tinySpring.ioc.PropertyValues;
+import cn.tzy.tinySpring.ioc.context.ApplicationContext;
+import cn.tzy.tinySpring.ioc.context.ClassPathXmlApplicationContext;
 import cn.tzy.tinySpring.ioc.io.Resource;
 import cn.tzy.tinySpring.ioc.io.ResourceLoader;
 import cn.tzy.tinySpring.ioc.xml.XmlBeanDefinitionReader;
@@ -50,6 +52,13 @@ public class BeanFactoryTest {
         System.out.println(factory.beanDefinitionMap.size());
 
         OutputService outputService = (OutputService) factory.getBean("outputService");
+        outputService.output();
+    }
+
+    @Test
+    public void test4()throws Exception{
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("tinyioc.xml");
+        OutputService outputService = (OutputService)applicationContext.getBean("outputService");
         outputService.output();
     }
 

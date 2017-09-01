@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab83b9b-598a-4a12-897a-5ad7ef55fb71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/AbstractApplicationContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/ApplicationContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/ClassPathXmlApplicationContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/DefaultSingletonBeanRegistry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tzy/tinySpring/ioc/factory/AutowireCapableBeanFactory.class" afterPath="$PROJECT_DIR$/target/classes/cn/tzy/tinySpring/ioc/factory/AutowireCapableBeanFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cn/tzy/tinySpring/ioc/factory/BeanFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cn/tzy/tinySpring/ioc/factory/BeanFactoryTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/AdvisedSupport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/AopProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/JdkDynamicAopProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/ReflectiveMethodInvocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/TargetSource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/factory/AutowireCapableBeanFactory.java" afterPath="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/factory/AutowireCapableBeanFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cn/tzy/tinySpring/ioc/factory/BeanFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/cn/tzy/tinySpring/ioc/factory/BeanFactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,14 +28,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClassPathXmlApplicationContext.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/ClassPathXmlApplicationContext.java">
+      <file leaf-file-name="JdkDynamicAopProxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/JdkDynamicAopProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="312">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1504101399094" expanded="true" signature="1490:1495" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -76,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AbstractBeanFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/AutowireCapableBeanFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/PropertyValues.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cn/tzy/tinySpring/ioc/factory/HelloWorldService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/BeanDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/PropertyValue.java" />
@@ -99,6 +95,12 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/DefaultSingletonBeanRegistry.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/tzy/tinySpring/ioc/factory/BeanFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/ClassPathXmlApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/AopProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/TargetSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/AdvisedSupport.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/ReflectiveMethodInvocation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/JdkDynamicAopProxy.java" />
       </list>
     </option>
   </component>
@@ -128,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -242,43 +245,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiny-spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiny-spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ioc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="context" />
+              <option name="myItemId" value="aop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,20 +271,21 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.tzy.tinySpring.ioc.factory" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.tzy.tinySpring.ioc.factory" />
-      <recent name="cn.tzy.tinySpring.ioc" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.tzy.tinySpring" />
       <recent name="cn.tzy.tinySpring.ioc" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.tzy.tinySpring.ioc.aop" />
+      <recent name="cn.tzy.tinySpring.ioc.factory" />
+      <recent name="cn.tzy.tinySpring.ioc" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.BeanFactoryTest.test4">
@@ -917,7 +890,9 @@
       <option name="presentableId" value="Default" />
       <updated>1504089617481</updated>
       <workItem from="1504089621185" duration="195000" />
-      <workItem from="1504089855148" duration="11541000" />
+      <workItem from="1504089855148" duration="11592000" />
+      <workItem from="1504138601072" duration="540000" />
+      <workItem from="1504250426678" duration="1388000" />
     </task>
     <servers />
   </component>
@@ -954,7 +929,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11736000" />
+    <option name="totallyTimeSpent" value="13715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="18" width="1366" height="750" extended-state="6" />
@@ -963,14 +938,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -982,12 +956,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24229075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24229075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1006,12 +981,6 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/ClassPathXmlApplicationContext.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="5" />
     </breakpoint-manager>
@@ -1022,26 +991,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/ClassPathXmlApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="598">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
-            <marker date="1504092375301" expanded="true" signature="89:649" ph="..." />
-            <marker date="1504092375301" expanded="true" signature="428:638" ph="..." />
-            <marker date="1504092375301" expanded="true" signature="449:618" ph="..." />
+            <marker date="1504101399094" expanded="true" signature="48:321" ph="..." />
+            <marker date="1504101399094" expanded="true" signature="602:664" ph="{...}" />
+            <marker date="1504101399094" expanded="true" signature="785:864" ph="{...}" />
+            <marker date="1504101399094" expanded="true" signature="917:1404" ph="{...}" />
+            <marker date="1504101399094" expanded="true" signature="1490:1495" ph="{...}" />
+            <marker date="1504101399094" expanded="false" signature="1532:1537" ph=" { " />
+            <marker date="1504101399094" expanded="false" signature="1567:1570" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="253">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
-            <marker date="1504092375301" expanded="true" signature="89:649" ph="..." />
-            <marker date="1504092375301" expanded="true" signature="428:638" ph="..." />
-            <marker date="1504092375301" expanded="true" signature="449:618" ph="..." />
+            <marker date="1504251367077" expanded="true" signature="89:819" ph="..." />
+            <marker date="1504251367077" expanded="true" signature="428:808" ph="..." />
+            <marker date="1504251367077" expanded="true" signature="449:618" ph="..." />
+            <marker date="1504251367077" expanded="true" signature="639:788" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1050,10 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <marker date="1504095164517" expanded="true" signature="57:119" ph="/**...*/" />
-            <marker date="1504095164517" expanded="true" signature="194:318" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,10 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <marker date="1504096067817" expanded="true" signature="42:90" ph="..." />
-            <marker date="1504096067817" expanded="true" signature="92:154" ph="/**...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,13 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1504096445309" expanded="true" signature="42:142" ph="..." />
-            <marker date="1504096445309" expanded="true" signature="144:206" ph="/**...*/" />
-            <marker date="1504096445309" expanded="false" signature="306:316" ph=" { " />
-            <marker date="1504096445309" expanded="false" signature="331:337" ph=" }" />
-            <marker date="1504096445309" expanded="true" signature="398:545" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,14 +1072,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/BeanDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1193,14 +1145,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/factory/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/factory/DefaultListableBeanFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/xml/XmlBeanDefinitionReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-878">
@@ -1323,11 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1504090084673" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1504090084673" expanded="true" signature="277:284" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="327:499" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1335,55 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <marker date="1504090084673" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1504090084673" expanded="false" signature="141:1294" ph="..." />
-            <marker date="1504090084673" expanded="true" signature="1449:1478" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="1554:2171" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="2237:2378" ph="{...}" />
-            <marker date="1504090084673" expanded="false" signature="2429:2440" ph=" { " />
-            <marker date="1504090084673" expanded="false" signature="2473:2479" ph=" }" />
-            <marker date="1504090084673" expanded="false" signature="2537:2548" ph=" { " />
-            <marker date="1504090084673" expanded="false" signature="2607:2613" ph=" }" />
-            <marker date="1504090084673" expanded="true" signature="2686:2869" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="2934:3039" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="3111:3299" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="3371:3648" ph="{...}" />
-            <marker date="1504090084673" expanded="false" signature="3689:3700" ph=" { " />
-            <marker date="1504090084673" expanded="false" signature="3772:3778" ph=" }" />
-            <marker date="1504090084673" expanded="true" signature="3784:3802" ph="/**...*/" />
-            <marker date="1504090084673" expanded="true" signature="3886:4207" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="4265:4488" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="4562:4897" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="4962:5041" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="5094:5185" ph="{...}" />
-            <marker date="1504090084673" expanded="false" signature="5240:5251" ph=" { " />
-            <marker date="1504090084673" expanded="false" signature="5275:5281" ph=" }" />
-            <marker date="1504090084673" expanded="true" signature="5343:6121" ph="{...}" />
-            <marker date="1504090084673" expanded="false" signature="5400:5498" ph="runReflectiveCall() → {" />
-            <marker date="1504090084673" expanded="false" signature="5580:5599" ph="}" />
-            <marker date="1504090084673" expanded="false" signature="6197:6208" ph=" { " />
-            <marker date="1504090084673" expanded="false" signature="6246:6252" ph=" }" />
-            <marker date="1504090084673" expanded="true" signature="6258:6276" ph="/**...*/" />
-            <marker date="1504090084673" expanded="true" signature="6398:6604" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="6610:6628" ph="/**...*/" />
-            <marker date="1504090084673" expanded="true" signature="6743:6910" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="6916:6934" ph="/**...*/" />
-            <marker date="1504090084673" expanded="true" signature="7047:7232" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="7238:7256" ph="/**...*/" />
-            <marker date="1504090084673" expanded="true" signature="7368:7548" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="7642:7907" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="7959:8244" ph="{...}" />
-            <marker date="1504090084673" expanded="false" signature="8291:8302" ph=" { " />
-            <marker date="1504090084673" expanded="false" signature="8360:8366" ph=" }" />
-            <marker date="1504090084673" expanded="true" signature="8436:8659" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="8749:8878" ph="{...}" />
-            <marker date="1504090084673" expanded="true" signature="8957:9065" ph="{...}" />
-            <marker date="1504090084673" expanded="false" signature="9120:9131" ph=" { " />
-            <marker date="1504090084673" expanded="false" signature="9184:9190" ph=" }" />
-            <marker date="1504090084673" expanded="false" signature="9236:9247" ph=" { " />
-            <marker date="1504090084673" expanded="false" signature="9297:9303" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1391,24 +1282,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1504100826210" expanded="true" signature="47:108" ph="..." />
-            <marker date="1504100826210" expanded="true" signature="110:172" ph="/**...*/" />
-            <marker date="1504100826210" expanded="true" signature="350:360" ph=" { " />
-            <marker date="1504100826210" expanded="true" signature="396:402" ph=" }" />
-            <marker date="1504100826210" expanded="false" signature="446:456" ph=" { " />
-            <marker date="1504100826210" expanded="false" signature="494:500" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/context/ClassPathXmlApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="243">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <marker date="1504101399094" expanded="true" signature="48:321" ph="..." />
+            <marker date="1504101399094" expanded="true" signature="602:664" ph="{...}" />
+            <marker date="1504101399094" expanded="true" signature="785:864" ph="{...}" />
+            <marker date="1504101399094" expanded="true" signature="917:1404" ph="{...}" />
+            <marker date="1504101399094" expanded="true" signature="1490:1495" ph="{...}" />
+            <marker date="1504101399094" expanded="false" signature="1532:1537" ph=" { " />
+            <marker date="1504101399094" expanded="false" signature="1567:1570" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/AopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <marker date="1504251815005" expanded="true" signature="36:97" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/TargetSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <marker date="1504251814945" expanded="true" signature="36:97" ph="/**...*/" />
+            <marker date="1504251814945" expanded="true" signature="241:318" ph="{...}" />
+            <marker date="1504251814945" expanded="true" signature="353:364" ph=" { " />
+            <marker date="1504251814945" expanded="true" signature="383:389" ph=" }" />
+            <marker date="1504251814945" expanded="true" signature="440:451" ph=" { " />
+            <marker date="1504251814945" expanded="true" signature="482:488" ph=" }" />
+            <marker date="1504251814945" expanded="true" signature="519:530" ph=" { " />
+            <marker date="1504251814945" expanded="true" signature="544:550" ph=" }" />
+            <marker date="1504251814945" expanded="true" signature="592:603" ph=" { " />
+            <marker date="1504251814945" expanded="true" signature="624:630" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <marker date="1504251367077" expanded="true" signature="89:819" ph="..." />
+            <marker date="1504251367077" expanded="true" signature="428:808" ph="..." />
+            <marker date="1504251367077" expanded="true" signature="449:618" ph="..." />
+            <marker date="1504251367077" expanded="true" signature="639:788" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/AdvisedSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1504251814841" expanded="true" signature="89:150" ph="/**...*/" />
+            <marker date="1504251814841" expanded="false" signature="311:322" ph=" { " />
+            <marker date="1504251814841" expanded="false" signature="342:348" ph=" }" />
+            <marker date="1504251814841" expanded="false" signature="408:419" ph=" { " />
+            <marker date="1504251814841" expanded="false" signature="452:458" ph=" }" />
+            <marker date="1504251814841" expanded="false" signature="511:522" ph=" { " />
+            <marker date="1504251814841" expanded="false" signature="547:553" ph=" }" />
+            <marker date="1504251814841" expanded="true" signature="629:688" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1504251815061" expanded="false" signature="43:163" ph="..." />
+            <marker date="1504251815061" expanded="true" signature="391:463" ph="{...}" />
+            <marker date="1504251815061" expanded="false" signature="491:496" ph=" { " />
+            <marker date="1504251815061" expanded="false" signature="510:513" ph=" }" />
+            <marker date="1504251815061" expanded="false" signature="546:551" ph=" { " />
+            <marker date="1504251815061" expanded="false" signature="563:566" ph=" }" />
+            <marker date="1504251815061" expanded="true" signature="610:652" ph="{...}" />
+            <marker date="1504251815061" expanded="false" signature="678:683" ph=" { " />
+            <marker date="1504251815061" expanded="false" signature="697:700" ph=" }" />
+            <marker date="1504251815061" expanded="false" signature="742:747" ph=" { " />
+            <marker date="1504251815061" expanded="false" signature="761:764" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tzy/tinySpring/ioc/aop/JdkDynamicAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1504101399094" expanded="true" signature="1490:1495" ph="{...}" />
           </folding>
         </state>
       </provider>
